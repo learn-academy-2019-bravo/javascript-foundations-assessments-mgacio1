@@ -1,6 +1,6 @@
-# Javascript Foundations Assessments
-random
-### Without using Google answer the following:
+<!-- # Javascript Foundations Assessments
+
+### Without using Google answer the following: -->
 
 1. List the data types in Javascript. Indicate which are primitives.
 String, number, boolean, null, undefined, and symbols are all primitive data types.
@@ -34,7 +34,7 @@ Pig Latin project
 10. What was your "A-ha!" moment this week?
 Seeing how JS, CSS and HTML interact with one another to create website.
 
-### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
+<!-- ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge. -->
 
 1. Look at this Javascript and try to predict, what will the browser's console show?
 
@@ -46,9 +46,14 @@ function logIt(){
 }
 
 logIt()
-console.log(logIt(text)); // output - "inside"
+console.log(logIt(text));
+output - since the function is not showing anything to return, the browser console should show 'undefined'.  There is no argument that is being passed through.
 
 2. What is JSON? How does it relate to javascript objects?
 Javascript Object Notation:
 
+JSON is a syntax for storing and exchanging data.  JSON is text, written with JavaScript object notation.
+
 3. Describe a closure, what is it good for and how do you recognize one?
+
+Closure makes it possible for a function to have "private" variables. Closures makes it possible for a function to have "private" variables.
