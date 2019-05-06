@@ -10,12 +10,14 @@
 // }
 // console.log(divByThree(6))
 // 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you. Write a function that returns a description of you.
-// const helloMe = {
-//   first_name: "Michael",
-//   last_name: "Acio",
-//   height: "5,8",
-//   weight: 170
-// }
+const helloMe = {
+  first_name: "Michael",
+  last_name: "Acio",
+  height: "5,8",
+  weight: 170,
+  getDescription: function() {return this.first_name + " "+this.last_name + "-"+this.height + "-"+this.weight}
+}
+console.log(helloMe.getDescription());
 // const helloBravo = {
 //   first_name: "Leonardo",
 //   last_name: "Turtle",
